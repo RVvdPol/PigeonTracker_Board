@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 4) (host pcbnew 4.0.5)
 
   (general
     (links 61)
     (no_connects 61)
-    (area 133.7125 57.1694 169.527049 104.228572)
+    (area 133.7125 56.055 169.527049 104.228572)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -190,7 +190,7 @@
   )
 
   (module Connectors_JST:JST_SHL_SM02B-SHLS-TF_02x1.00mm_Angled (layer B.Cu) (tedit 58A2304D) (tstamp 5AD74232)
-    (at 118.11 76.2 90)
+    (at 139.3 100.6 90)
     (descr "JST SHL series connector, SM02B-SHLS-TF")
     (tags "connector jst SHL SMT side horizontal entry 1.0mm pitch")
     (path /5ACF8B45)
@@ -913,7 +913,7 @@
   )
 
   (module Connectors_JAE:JAE_LY20-06P-2T_2x03x2.00mm_Straight (layer F.Cu) (tedit 5786C4D1) (tstamp 5AD77FDA)
-    (at 116.11 86.36)
+    (at 154.5336 63.1444)
     (descr "JAE LY series connector, dual row top entry, through hole, Datasheet:http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ103130.pdf")
     (tags "connector jae ly LY20-06P-2T")
     (path /5AD822F9)
