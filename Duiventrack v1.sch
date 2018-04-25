@@ -176,7 +176,7 @@ F 3 "" H 3250 3050 50  0000 C CNN
 	1    3250 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 3600 3500 2    39   Input ~ 0
+Text GLabel 3550 3500 2    39   Input ~ 0
 MCU_RST
 Text GLabel 8000 2750 0    39   Input ~ 0
 MCU_RST
@@ -588,8 +588,6 @@ F 3 "" H 2950 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 3500 3600 3500
-Wire Wire Line
 	3250 3400 3250 4000
 Wire Wire Line
 	3250 4000 3750 4000
@@ -695,4 +693,6 @@ F 3 "" H 7200 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7200 2200
+Wire Wire Line
+	2950 3500 3550 3500
 $EndSCHEMATC
