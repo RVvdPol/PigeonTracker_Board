@@ -3,7 +3,7 @@
   (general
     (links 61)
     (no_connects 61)
-    (area 133.7125 57.1694 169.527049 104.228572)
+    (area 133.7125 56.055 169.527049 104.228572)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -913,7 +913,7 @@
   )
 
   (module Connectors_JAE:JAE_LY20-06P-2T_2x03x2.00mm_Straight (layer F.Cu) (tedit 5786C4D1) (tstamp 5AD77FDA)
-    (at 176.2 90.6)
+    (at 154.5336 63.1444)
     (descr "JAE LY series connector, dual row top entry, through hole, Datasheet:http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ103130.pdf")
     (tags "connector jae ly LY20-06P-2T")
     (path /5AD822F9)
