@@ -1,4 +1,4 @@
-update=18/04/2018 18:43:23
+update=25/04/2018 14:02:22
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=Library/Componenten/Mutara_SP-ABZ-G
-LibName31=Library/Componenten/Project componenten
+LibName30=Library/Componenten/Project componenten
