@@ -271,7 +271,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 58AA841A) (tstamp 5AD7423E)
-    (at 148.2 58.3)
+    (at 137.85 63.1)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AD7EC93)
