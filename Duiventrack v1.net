@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\Joost\\Desktop\\Duiventracker Questproject\\Kicad\\Duiventrack v1.sch")
-    (date "25/04/2018 13:21:05")
+    (source "C:/Users/Joost/Documents/GitHub/PigeonTracker_Board/Duiventrack v1.sch")
+    (date "25/04/2018 20:37:25")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -131,6 +131,7 @@
       (tstamp 5AD822F9))
     (comp (ref TP1)
       (value TEST)
+      (footprint Measurement_Points:Measurement_Point_Round-SMD-Pad_Small)
       (libsource (lib device) (part TEST))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AE08B1C)))
@@ -286,7 +287,7 @@
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical "Project componenten")
-      (uri "C:\\Users\\Joost\\Desktop\\Duiventracker Questproject\\Kicad\\Library\\Componenten\\Project componenten.lib")))
+      (uri "C:\\Users\\Joost\\Documents\\GitHub\\PigeonTracker_Board\\Library\\Componenten\\Project componenten.lib")))
   (nets
     (net (code 1) (name MCU_RST)
       (node (ref R3) (pin 2))

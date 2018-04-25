@@ -989,7 +989,7 @@
   )
 
   (module Footprint:SolderJumper_NO (layer F.Cu) (tedit 5AD9C087) (tstamp 5AD9C584)
-    (at 162.7 76.5)
+    (at 165.2 78.6)
     (path /5AD79D47)
     (fp_text reference JP1 (at 0 1.651) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
