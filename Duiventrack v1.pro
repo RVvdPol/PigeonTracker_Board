@@ -1,4 +1,4 @@
-update=18/04/2018 18:43:23
+update=01/05/2018 13:35:30
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=Library/Componenten/Mutara_SP-ABZ-G
 LibName31=Library/Componenten/Project componenten
+LibName32=Library/Componenten/Mutara_SP-ABZ-G (1)

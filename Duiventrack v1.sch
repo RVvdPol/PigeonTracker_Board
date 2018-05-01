@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Project componenten
+LIBS:Mutara_SP-ABZ-G (1)
 LIBS:Duiventrack v1-cache
 EELAYER 25 0
 EELAYER END
@@ -296,17 +297,6 @@ Text GLabel 1650 3400 1    39   Input ~ 0
 VBat
 Text GLabel 10300 3350 2    39   Input ~ 0
 VBat_Measure
-$Comp
-L SP-ABZ-G U2
-U 1 1 5ACF7027
-P 9150 3350
-F 0 "U2" H 9250 1700 60  0000 C CNN
-F 1 "SP-ABZ-G" H 9150 5500 60  0000 C CNN
-F 2 "Foodprint:Murata_SP-ABZ-G" H 9250 4450 60  0001 C CNN
-F 3 "" H 9250 4450 60  0001 C CNN
-	1    9150 3350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Battery_Cell BT1
 U 1 1 5ACF8B45
@@ -695,4 +685,40 @@ F 3 "" H 7200 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7200 2200
+$Comp
+L C C?
+U 1 1 5AE853A6
+P 7150 4200
+F 0 "C?" H 7175 4300 50  0000 L CNN
+F 1 "2.2pF" H 7175 4100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7188 4050 50  0001 C CNN
+F 3 "" H 7150 4200 50  0000 C CNN
+	1    7150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5AE85758
+P 7150 4350
+F 0 "#PWR?" H 7150 4100 50  0001 C CNN
+F 1 "Earth" H 7150 4200 50  0001 C CNN
+F 2 "" H 7150 4350 50  0000 C CNN
+F 3 "" H 7150 4350 50  0000 C CNN
+	1    7150 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4050 7150 3950
+Connection ~ 7150 3950
+$Comp
+L SP-ABZ-G U?
+U 1 1 5AE85422
+P 9150 3350
+F 0 "U?" H 9250 1700 60  0000 C CNN
+F 1 "SP-ABZ-G" H 9150 5500 60  0000 C CNN
+F 2 "" H 9250 4450 60  0001 C CNN
+F 3 "" H 9250 4450 60  0001 C CNN
+	1    9150 3350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
