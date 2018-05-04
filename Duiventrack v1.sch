@@ -532,7 +532,7 @@ $EndComp
 Wire Wire Line
 	2950 3500 3600 3500
 Wire Wire Line
-	3250 3400 3250 4100
+	3250 3400 3250 4500
 Connection ~ 3250 3500
 Wire Wire Line
 	2950 3500 2950 3600
@@ -555,9 +555,9 @@ Wire Wire Line
 	8000 3650 8050 3650
 Wire Wire Line
 	8000 3750 8050 3750
-Text GLabel 3950 4200 0    39   Input ~ 0
+Text GLabel 3950 4100 0    39   Input ~ 0
 SWCLK
-Text GLabel 3950 4300 0    39   Input ~ 0
+Text GLabel 3950 4200 0    39   Input ~ 0
 SWDIO
 Text GLabel 10300 2350 2    39   Input ~ 0
 Uart_TX
@@ -567,9 +567,9 @@ Wire Wire Line
 	10250 2350 10300 2350
 Wire Wire Line
 	10250 2250 10300 2250
-Text GLabel 3950 4400 0    39   Input ~ 0
+Text GLabel 3950 4300 0    39   Input ~ 0
 Uart_RX
-Text GLabel 3950 4500 0    39   Input ~ 0
+Text GLabel 3950 4400 0    39   Input ~ 0
 Uart_TX
 NoConn ~ 10250 1350
 NoConn ~ 10250 1500
@@ -764,8 +764,6 @@ F 3 "" H 4150 4300 50  0000 C CNN
 $EndComp
 Text GLabel 3950 4000 0    39   Input ~ 0
 Vbat
-Wire Wire Line
-	3250 4100 3950 4100
 $Comp
 L C C11
 U 1 1 5AECCB73
@@ -791,4 +789,6 @@ $EndComp
 Wire Wire Line
 	3700 1550 3700 1450
 Connection ~ 3700 1450
+Wire Wire Line
+	3250 4500 3950 4500
 $EndSCHEMATC
