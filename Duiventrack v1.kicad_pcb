@@ -1,8 +1,8 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5)
+(kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
-    (links 0)
-    (no_connects 5)
+    (links 73)
+    (no_connects 0)
     (area 139.724999 84.924999 162.475001 97.875001)
     (thickness 1.6)
     (drawings 10)
@@ -1128,10 +1128,10 @@
       (net 10 Uart_TX))
     (pad 7 smd rect (at 1.5 -3.81 270) (size 3 0.65) (layers B.Cu B.Paste B.Mask)
       (net 2 Earth))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x07_Pitch1.27mm_SMD_Pin1Right.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "C:/Users/Remyv/Documents/Github School/PigeonTracker_Board/Library/3D_Modules/m52-5050745_asm.wrl"
+      (at (xyz 0 0.2 0.01))
+      (scale (xyz 0.39 0.39 0.39))
+      (rotate (xyz 270 0 90))
     )
   )
 

@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.5)
 
   (general
-    (links 68)
+    (links 0)
     (no_connects 5)
     (area 139.724999 84.924999 162.475001 97.875001)
     (thickness 1.6)
     (drawings 10)
     (tracks 160)
     (zones 0)
-    (modules 25)
+    (modules 30)
     (nets 15)
   )
 
@@ -65,8 +65,8 @@
     (mod_edge_width 0.1)
     (mod_text_size 0.5 0.5)
     (mod_text_width 0.1)
-    (pad_size 1.524 1.524)
-    (pad_drill 0.762)
+    (pad_size 0.6 0.6)
+    (pad_drill 0.2)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
@@ -1169,6 +1169,66 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (module Footprint:Via0,6 (layer F.Cu) (tedit 5AF2E173) (tstamp 5AF40650)
+    (at 148.9 95.2)
+    (fp_text reference REF** (at 0 1.651) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "Via 0,6 0,2" (at 0 -2.159) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.2) (layers *.Cu)
+      (net 2 Earth) (zone_connect 2))
+  )
+
+  (module Footprint:Via0,6 (layer F.Cu) (tedit 5AF2E2D6) (tstamp 5AF40678)
+    (at 145.8 87.8)
+    (fp_text reference REF** (at 0 1.651) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "Via 0,6 0,2" (at 0 -2.159) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.2) (layers *.Cu)
+      (net 2 Earth) (zone_connect 2))
+  )
+
+  (module Footprint:Via0,6 (layer F.Cu) (tedit 5AF2E320) (tstamp 5AF40687)
+    (at 140.6 90.6)
+    (fp_text reference REF** (at 0 1.651) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "Via 0,6 0,2" (at 0 -2.159) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.2) (layers *.Cu)
+      (net 2 Earth) (zone_connect 2))
+  )
+
+  (module Footprint:Via0,6 (layer F.Cu) (tedit 5AF2E3D1) (tstamp 5AF40691)
+    (at 154.4 93.8)
+    (fp_text reference REF** (at 0 1.651) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "Via 0,6 0,2" (at 0 -2.159) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.2) (layers *.Cu)
+      (net 2 Earth) (zone_connect 2))
+  )
+
+  (module Footprint:Via0,6 (layer F.Cu) (tedit 5AF2E42E) (tstamp 5AF4069B)
+    (at 140.4 88.6)
+    (fp_text reference REF** (at 0 1.651) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "Via 0,6 0,2" (at 0 -2.159) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.2) (layers *.Cu)
+      (net 2 Earth) (zone_connect 2))
   )
 
   (dimension 22.6 (width 0.3) (layer Dwgs.User)
