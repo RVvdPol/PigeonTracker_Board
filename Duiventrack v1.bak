@@ -774,12 +774,12 @@ Wire Wire Line
 	7550 1350 7550 1650
 Connection ~ 7550 1650
 $Comp
-L Jumper_NC_Dual JP?
+L Jumper_NC_Dual JP2
 U 1 1 5AFC3D44
 P 7900 950
-F 0 "JP?" H 7950 850 50  0000 L CNN
+F 0 "JP2" H 7950 850 50  0000 L CNN
 F 1 "Jumper_NC_Dual" H 7900 1050 50  0000 C BNN
-F 2 "" H 7900 950 50  0000 C CNN
+F 2 "" H 7900 950 50  0001 C CNN
 F 3 "" H 7900 950 50  0000 C CNN
 	1    7900 950 
 	1    0    0    -1  
@@ -809,12 +809,12 @@ F 3 "" H 9250 4450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NO_Small JP?
+L Jumper_NO_Small JP3
 U 1 1 5AFC7692
 P 10950 3500
-F 0 "JP?" V 10950 3600 50  0000 C CNN
+F 0 "JP3" V 10950 3600 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 10950 3400 50  0000 C CNN
-F 2 "" H 10950 3500 50  0000 C CNN
+F 2 "Footprint:SolderJumper_NO" H 10950 3500 50  0001 C CNN
 F 3 "" H 10950 3500 50  0000 C CNN
 	1    10950 3500
 	0    -1   -1   0   
@@ -828,12 +828,12 @@ Wire Wire Line
 Wire Wire Line
 	10950 3050 10250 3050
 $Comp
-L Jumper_NO_Small JP?
+L Jumper_NO_Small JP1
 U 1 1 5AFC86FF
 P 7600 2000
-F 0 "JP?" H 7600 2080 50  0000 C CNN
+F 0 "JP1" H 7600 2080 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 7610 1940 50  0000 C CNN
-F 2 "" H 7600 2000 50  0000 C CNN
+F 2 "Footprint:SolderJumper_NO" H 7600 2000 50  0001 C CNN
 F 3 "" H 7600 2000 50  0000 C CNN
 	1    7600 2000
 	0    1    1    0   
