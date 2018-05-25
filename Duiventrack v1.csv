@@ -1,0 +1,20 @@
+Id;Designator;Package;Quantity;Designation;Supplier and ref
+1;U2;Murata_SP-ABZ-G;1;SP-ABZ-G;
+2;R3;R_0402;1;1M;
+3;AE1;U.FL_Hirose_U.FL-R-SMT-1_Vertical;1;Antenna_Shield;
+4;C1,C2,C6,C7;C_0402;4;100nF;
+5;C8,C10;C_0402;2;F;
+6;C9,C5,C11;C_0402;3;1uF;
+7;R1,R2;R_0402;2;10M;
+8;R5,R4;R_0402;2;10K;
+9;U1;SOT-23-5;1;MCP1711-SOT23-5;
+10;TP1;Measurement_Point_Round-SMD-Pad_Small;1;TEST;
+11;BT1;Pin_Header_Straight_1x02_Pitch1.27mm;1;LiPo_Cell;
+12;C3,C4;C_0603;2;10uF;
+13;L1;L_0402;1;L;
+14;P2;Pin_Header_Straight_1x02_Pitch1.27mm;1;CONN_01X02;
+15;R6;R_0402;1;100K;
+16;P1;Pin_Header_Straight_1x07_Pitch1.27mm_SMD_Pin1Right;1;CONN_01X07;
+17;JP1,JP3;SolderJumper_NO;2;Jumper_NO_Small;
+18;JP2;SolderJumper_NO-3;1;Jumper_NC_Dual;
+19;G***;Duif;1;LOGO;
